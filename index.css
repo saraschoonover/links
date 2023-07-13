@@ -1,38 +1,64 @@
-/* body {
+body {
   padding-top: 40px;
   padding-bottom: 40px;
+  background-color: #415d43;
+  display: flex;
+  justify-content: center;
 }
 
-/* .banner img{
-  display:block;
-  margin:auto;
-  border-radius: 50%;
-  width: 150px;
-  height: 150px;
-  padding: 20px 0;
-} */
-
-/* .banner-image {
+.banner img {
   width: 128px;
   height: 128px;
   object-fit: cover;
   border-radius: 128px;
+  display: block;
+  margin: auto;
+}
+
+img {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  object-fit: cover;
 }
 
 .name {
+  color: #fffffe;
   display: flex;
   justify-content: center;
-  align-items:center;
-  padding: 20px;
+  font-family: 'Dancing Script', cursive;
 }
 
-.social-icons{
+.social-icons a{
+  color: #fffffe;
+  text-decoration: none;
+}
+
+.social-icons {
   display: flex;
-  justify-content: center;
-  align-items:center;
-  padding: 20px;
+  justify-content: space-around;
 }
 
-.fa-brands {
-  padding: 10px;
-} */ 
+.link {
+  background-color: #a1cca5;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  border-radius: 100px;
+}
+
+.link a {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: #001e1d;
+  text-decoration: none;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 640px;
+  flex-grow: 1;
+}
