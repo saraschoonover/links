@@ -1,1 +1,123 @@
-<h1>My Link In Bio</h1>
+<html>
+  <head>
+    <title>My Link In Bio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/90e27064c2.js" crossorigin="anonymous"></script>
+    <style>
+      body {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #004643;
+        display: flex;
+        justify-content: center;
+      }
+
+      .banner img {
+        width: 128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius: 128px;
+        display: block;
+        margin: auto;
+      }
+
+      img {
+        width: 48px;
+        height: 48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
+
+      .name {
+        color: #fffffe;
+        display: flex;
+        justify-content: center;
+      }
+
+      .social-icons a{
+        color: #fffffe;
+        text-decoration: none;
+      }
+
+      .social-icons {
+        display: flex;
+        justify-content: space-around;
+      }
+
+      .link {
+        background-color: #f9bc60;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+      }
+
+      .link a {
+        color: #001e1d;
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
+      }
+
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
+        flex-grow: 1;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="items">
+      <div class="banner">
+        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Sara headshot">
+      </div>
+
+      <div class="name">
+        Sara Schoonover
+      </div>
+   
+
+      <div class="social-icons">
+        <!-- <i class="fa-brands fa-github"></i> -->
+        <a href="https://github.com/saraschoonover" target="_blank">
+          GitHub
+        </a>
+        <!-- <i class="fa-brands fa-linkedin"></i> -->
+        <a href="https://www.linkedin.com/in/saraschoonover/" target="_blank">
+          LinkedIn
+        </a>
+        <!-- <i class="fa-brands fa-square-instagram"></i> -->
+        <a href="https://www.instagram.com/schoonover/" target="_blank">
+          Instagram
+        </a>
+
+
+      </div>
+      <div class="link">
+        <img
+          src="https://www.ycombinator.com/assets/ycdc/yc-og-image-0cfa80cac837d64d9b4f0705950000b66906ac032791376bd721f246fafcc7b4.png">
+
+        <a target="_blank" href="http://paulgraham.com/startupideas.html">How to Get Startup Ideas
+          — Paul Graham</a>
+      </div>
+
+      <div class="link">
+        <img src="https://plus.unsplash.com/premium_photo-1669559809615-b08af364b738?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=60">
+
+        <a target="_blank"
+          href="https://practicaltypography.com/typography-in-ten-minutes.html">Typography in ten minutes — Matthew
+          Butterick</a>
+      </div>
+      <div class="link">
+        <img
+          src="https://media.newyorker.com/photos/59096d451c7a8e33fb38e4ca/16:9/w_1280,c_limit/071210_r16884_p646.jpg">
+
+        <a target="_blank" href="https://www.newyorker.com/magazine/2007/12/10/the-checklist/">A
+          Life-Saving Checklist — The New Yorker</a>
+      </div>
+    </div>
+    <!-- content displayed to user (i.e. the stuff from the code block above) -->
+  </body>
+</html>
